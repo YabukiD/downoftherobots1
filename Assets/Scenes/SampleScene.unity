@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 181979032}
   - component: {fileID: 181979031}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -644,9 +644,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   jumpHeight: 5
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 1032986594}
   isGrounded: 0
   groundCheckRadius: 0
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1671734723
 GameObject:
   m_ObjectHideFlags: 0
